@@ -1,0 +1,18 @@
+create table if not exists product_control_group_levels(
+product_control_code Integer not null,
+product_controlgroup_tree_id Integer null,
+product_controlgroup_tree_effective_date varchar(255) null,
+product_controlgroup_tree_code Integer null,
+product_controlgroup_tree_description varchar(255) null,
+data_publication_hierarchy_node1 varchar(255) null,
+data_publication_hierarchy_node1_desc varchar(255) null,
+data_publication_hierarchy_node2 varchar(255) null,
+data_publication_hierarchy_node2_desc varchar(255) null,
+data_publication_hierarchy_node3 varchar(255) null,
+data_publication_hierarchy_node3_desc varchar(255) null,
+data_publication_hierarchy_node4 varchar(255) null,
+data_publication_hierarchy_node4_desc varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint product_control_group_levels_pk primary key(product_control_code));

@@ -1,0 +1,16 @@
+create table if not exists product_control_group_to_trading(
+product_control_code Integer not null,
+data_cutodian_id Integer null,
+trade_id Integer null,
+pre_trade_applicable varchar(255) null,
+business_indicator Integer null,
+user_code char null,
+country_code char null,
+unit_name varchar(255) null,
+frtbdata_custodian_mapping_id varchar(255) null,
+creation_cr varchar(255) null,
+modified_cr varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint product_control_group_to_trading_pk primary key(product_control_code));
